@@ -24,3 +24,13 @@ user.insertMany([
     console.log(res);
 });
 
+// finding users data that have inserted
+
+user.find({})
+.then((res)=>{
+    console.log(res);
+})
+.catch((err)=>{
+    console.log(err);
+})
+
